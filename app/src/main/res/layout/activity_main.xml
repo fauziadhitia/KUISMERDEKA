@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:backgroundTint="#FAF8F8"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="KUIS INDONESIA MERDEKA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBukasatu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#950505"
+        android:text="Level 1-25" />
+
+    <Button
+        android:id="@+id/btnBukadua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="level 26-50" />
+
+    <Button
+        android:id="@+id/btnBukatiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="level 51-75" />
+
+
+</LinearLayout>
